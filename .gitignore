@@ -1,0 +1,25 @@
+# Env files — never commit secrets
+.env
+.env.local
+.env*.local
+backend/.env
+backend/config/config.yaml
+
+# Logs
+*.log
+backend/backend-runtime.log
+
+# Go
+backend/tmp/
+backend/bin/
+backend/check_env.go
+*.exe
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
